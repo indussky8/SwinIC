@@ -8,6 +8,10 @@ Image Compression Using Swin Transformer
  
  unzip -d /data/xxzhang/SwinIC/dataset/DIV2K/DIV2K_train_HR  DIV2K_valid_HR.zip
  
+ cp -r DIV2K_valid_HR/. /data/xxzhang/SwinIC/dataset/DIV2K/DIV2K_train_HR
+
+ rm -rf DIV2K_valid_HR
+ 
 测试集Kodak 已在dataset/kodak
 
 首先使用utils.py将训练数据集进行预处理
