@@ -3,8 +3,10 @@ Image Compression Using Swin Transformer
 项目依赖在文件requirement.txt中
 
 训练集DIV2K 解压到dataset/DIV2K中。下载链接 http://data.vision.ee.ethz.ch/cvl/DIV2K/DIV2K_train_HR.zip
- unzip -d /data/xxzhang/SwinIC/dataset/DIV2K  DIV2K_valid_HR.zip
- unzip -d /data/xxzhang/SwinIC/dataset/DIV2K/DIV2K_train_HR  DIV2K_train_HR.zip
+
+ unzip -d /data/xxzhang/SwinIC/dataset/DIV2K  DIV2K_train_HR.zip
+ 
+ unzip -d /data/xxzhang/SwinIC/dataset/DIV2K/DIV2K_train_HR  DIV2K_valid_HR.zip
  
 测试集Kodak 已在dataset/kodak
 
